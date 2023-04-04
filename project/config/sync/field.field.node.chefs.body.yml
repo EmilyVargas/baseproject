@@ -1,0 +1,23 @@
+uuid: 7336c076-bba0-410a-ab8c-069368aa75a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chefs
+  module:
+    - text
+id: node.chefs.body
+field_name: body
+entity_type: node
+bundle: chefs
+label: Bibliography
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
