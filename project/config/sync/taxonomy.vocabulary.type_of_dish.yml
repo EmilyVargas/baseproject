@@ -1,0 +1,8 @@
+uuid: 4a9c2177-f063-473e-a161-d9d4e90731dd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type of dish'
+vid: type_of_dish
+description: 'Examples: Dessert, Entrance, Strong...'
+weight: 0

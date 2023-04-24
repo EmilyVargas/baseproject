@@ -1,0 +1,8 @@
+uuid: 27f7a169-1c69-416b-8584-1da83463aa79
+langcode: en
+status: true
+dependencies: {  }
+id: featured_recipes
+label: 'Featured recipes'
+revision: 0
+description: ''

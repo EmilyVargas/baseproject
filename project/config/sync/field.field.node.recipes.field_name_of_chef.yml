@@ -1,0 +1,19 @@
+uuid: aa94eb1e-59ef-4a8b-86ce-11dccd83c6b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name_of_chef
+    - node.type.recipes
+id: node.recipes.field_name_of_chef
+field_name: field_name_of_chef
+entity_type: node
+bundle: recipes
+label: 'Name of Chef'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

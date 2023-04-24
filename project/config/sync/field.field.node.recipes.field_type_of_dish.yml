@@ -1,0 +1,29 @@
+uuid: 2a91bf19-2076-4fa5-a4a5-8e4e711e66ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_dish
+    - node.type.recipes
+    - taxonomy.vocabulary.type_of_dish
+id: node.recipes.field_type_of_dish
+field_name: field_type_of_dish
+entity_type: node
+bundle: recipes
+label: 'Type of Dish'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_of_dish: type_of_dish
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
