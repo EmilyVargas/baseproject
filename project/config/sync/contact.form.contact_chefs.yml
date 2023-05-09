@@ -1,0 +1,12 @@
+uuid: c14203eb-5b23-43ae-af90-5677e21902b7
+langcode: en
+status: true
+dependencies: {  }
+id: contact_chefs
+label: 'Contact Chefs'
+recipients:
+  - chefscontact@hotmail.com
+reply: ''
+weight: 0
+message: 'If you want us to give you direct contact with the chefs that appear on this page, you can use the email above.'
+redirect: ''

@@ -1,0 +1,8 @@
+uuid: 530ed5e9-9538-4b5b-839f-1dcde5a259e5
+langcode: en
+status: true
+dependencies: {  }
+id: recipes
+label: Recipes
+description: 'Examples: Dessert, Entrance, Strong...'
+locked: false

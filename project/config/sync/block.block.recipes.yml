@@ -1,0 +1,33 @@
+uuid: de9a43f4-9bac-45ce-91ca-5dc27ba5e434
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.recipes
+  module:
+    - node
+    - system
+  theme:
+    - olivero
+id: recipes
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:recipes'
+settings:
+  id: 'system_menu_block:recipes'
+  label: Recipes
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      recipes: recipes
